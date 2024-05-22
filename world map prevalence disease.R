@@ -7,5 +7,5 @@ data_map <- data.frame(country = c("USA", "Canada", "Iran", "South Korea", "Braz
 
 mapData <- joinCountryData2Map(data_map, joinCode = "NAME", nameJoinColumn = "country")
 
-mapCountryData(mapData, nameColumnToPlot = "prevalence", catMethod = "pretty", colourPalette = "negpos8", mapTitle = "Prevalence of the disease in the world")
+mapCountryData(mapData, nameColumnToPlot = "prevalence", catMethod = "pretty", colourPalette = "negpos8", mapTitle = "Prevalence of the Uncertain Disease in the World")
 
